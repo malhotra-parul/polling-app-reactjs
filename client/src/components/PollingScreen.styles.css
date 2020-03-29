@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+ 
+}
+
+.polling-list{
+    border: 0.5px blue solid;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width:450px;
+    margin-bottom: 1px;
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+    border: 1px blue solid;
+    padding: 15px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button{
+    
+    width: 100%;
+    margin:none;
+    padding: 15px;
+    border: 1px blue solid;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+input {
+    background-color: brown;
+}
+
