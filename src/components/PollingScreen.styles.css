@@ -17,6 +17,8 @@
 }
 
 .option{
+    display: flex;
+    justify-content: space-between;
     border: 1px blue solid;
     padding: 15px 20px;
     font-size: 18px;
@@ -25,11 +27,16 @@
 }
 
 button{
+    
     width: 100%;
     margin:none;
     padding: 15px;
     border: 1px blue solid;
     border-radius: 10px;
     font-size: 18px;
+}
+
+input {
+    background-color: brown;
 }
 
